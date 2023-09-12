@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/nick/functional/vector-operations/src/main/scala/vectors/VectorOps.scala:41:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m[33mdef[0m [36mdotpr[0m([36mx[0m: [35mVec3[0m, [36my[0m: [35mVec3[0m): [35mFloat[0m = ((x([31m0[0m) * y([31m0[0m)) + (x([31m1[0m) * y([31m1[0m)) + (x([31m2[0m) * y([31m2[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                      Found:    Double[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                      Required: Float[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

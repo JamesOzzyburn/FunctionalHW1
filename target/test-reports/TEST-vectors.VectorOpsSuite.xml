@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="James-Windows" name="vectors.VectorOpsSuite" tests="19" errors="0" failures="3" skipped="0" time="241.057" timestamp="2023-09-12T11:25:24">
+          <properties>
+      <property name="java.specification.version" value="19"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="Unknown"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-19-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/nick/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.4/sbt-1.9.4.zip/sbt/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2023-01-17"/><property name="java.home" value="/usr/lib/jvm/java-19-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="19.0.2+7-Ubuntu-0ubuntu322.04"/><property name="user.name" value="nick"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/nick/.cache/JNA/temp/jna4907164256680088104.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="19.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Private Build"/><property name="scala.ext.dirs" value="/home/nick/.sbt/1.0/java9-rt-ext-private_build_19_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/nick/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.4/sbt-1.9.4.zip/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Private Build"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Denver"/><property name="java.vm.specification.version" value="19"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/nick"/><property name="user.language" value="en"/><property name="sbt.script" value="/home/nick/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.9.4/sbt-1.9.4.zip/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/mnt/wslg/runtime-dir/.sbtaa4d54eb/ipcsocket"/><property name="swoval.tmpdir" value="/mnt/wslg/runtime-dir/.sbtaa4d54eb/swoval"/><property name="jline.esc.timeout" value="0"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.90.1-microsoft-standard-WSL2"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib/wsl/lib"/><property name="java.vendor.url.bug" value="Unknown"/><property name="user.dir" value="/home/nick/functional/vector-operations"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="19.0.2+7-Ubuntu-0ubuntu322.04"/><property name="java.class.version" value="63.0"/>
+    </properties>
+          <testcase classname="vectors.VectorOpsSuite" name="can scale a vector" time="0.039">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can add two vectors" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can get the dot product of two vectors" time="0.001">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can get the cross product of two vectors" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can get cross product run #1" time="0.001">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can get cross product run #2" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="can get cross product run #3" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="scale can be stacked" time="40.549">
+                      <failure message="/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:77
+76:    }
+[7m77:  }[0m
+78:
+
+Failing seed: 1GH_AZyuJSFYAiPQX2MFcWx1dwJcmaehlZZn8_oljHM=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;1GH_AZyuJSFYAiPQX2MFcWx1dwJcmaehlZZn8_oljHM=&quot;
+
+Falsified after 3 passed tests.
+&gt; ARG_0: -3.01837183427883E45
+&gt; ARG_1: -1.846112816543554E42
+&gt; ARG_2: (0.0,4.1842711721487876E-23,3.8345316276416975E220)
+&gt; ARG_0_ORIGINAL: -1.0910622966496182E267
+&gt; ARG_2_ORIGINAL: (5.3291755710967824E42,4.1842711721487876E-23,3.8345316276416975E220)" type="munit.FailException">munit.FailException: /home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:77
+76:    }
+[7m77:  }[0m
+78:
+
+Failing seed: 1GH_AZyuJSFYAiPQX2MFcWx1dwJcmaehlZZn8_oljHM=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;1GH_AZyuJSFYAiPQX2MFcWx1dwJcmaehlZZn8_oljHM=&quot;
+
+Falsified after 3 passed tests.
+&gt; ARG_0: -3.01837183427883E45
+&gt; ARG_1: -1.846112816543554E42
+&gt; ARG_2: (0.0,4.1842711721487876E-23,3.8345316276416975E220)
+&gt; ARG_0_ORIGINAL: -1.0910622966496182E267
+&gt; ARG_2_ORIGINAL: (5.3291755710967824E42,4.1842711721487876E-23,3.8345316276416975E220)
+	at munit.Assertions.fail(Assertions.scala:283)
+	at munit.Assertions.fail$(Assertions.scala:15)
+	at munit.FunSuite.fail(FunSuite.scala:11)
+	at munit.ScalaCheckSuite.propToTry$$anonfun$1(ScalaCheckSuite.scala:104)
+	at scala.util.Try$.apply(Try.scala:210)
+	at munit.ScalaCheckSuite.propToTry(ScalaCheckSuite.scala:104)
+	at munit.ScalaCheckSuite.$init$$$anonfun$2$$anonfun$1$$anonfun$1(ScalaCheckSuite.scala:46)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:475)
+	at munit.Suite$$anon$1.execute(Suite.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.dispatchOrAddCallbacks(Promise.scala:312)
+	at scala.concurrent.impl.Promise$DefaultPromise.transform(Promise.scala:128)
+	at munit.internal.FutureCompat$ExtensionFuture.transformCompat(FutureCompat.scala:16)
+	at munit.ScalaCheckSuite.$init$$$anonfun$3$$anonfun$2(ScalaCheckSuite.scala:48)
+	at munit.GenericTest.withBodyMap$$anonfun$1(GenericTest.scala:33)
+	at munit.MUnitRunner.$anonfun$8(MUnitRunner.scala:296)
+</failure>
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="addition is commutative" time="0.002">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="addition is associative" time="0.005">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="dot product of a vector and itself is never negative" time="0.002">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="dot product is commutative run #1" time="0.001">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="dot product is commutative run #2" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="dot product is commutative run #3" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="dot product is always commutative" time="0.332">
+                      <failure message="/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:130
+129:    }
+[7m130:  }[0m
+131:
+
+Failing seed: UiwU5H88JU3QBuJV3aKkgbTkYAw-X4soEtSV-TicibD=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;UiwU5H88JU3QBuJV3aKkgbTkYAw-X4soEtSV-TicibD=&quot;
+
+Falsified after 3 passed tests.
+&gt; ARG_0: (3.290224559509918E-83,0.0,9.835364053903514E179)
+&gt; ARG_1: (0.0,0.0,2.0754846916083725E128)
+&gt; ARG_0_ORIGINAL: (3.290224559509918E-83,-3.3292411631793057E80,2.956642726102461E290)
+&gt; ARG_1_ORIGINAL: (-1.58807857891627E250,1.0878500826606146E20,2.0754846916083725E128)" type="munit.FailException">munit.FailException: /home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:130
+129:    }
+[7m130:  }[0m
+131:
+
+Failing seed: UiwU5H88JU3QBuJV3aKkgbTkYAw-X4soEtSV-TicibD=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;UiwU5H88JU3QBuJV3aKkgbTkYAw-X4soEtSV-TicibD=&quot;
+
+Falsified after 3 passed tests.
+&gt; ARG_0: (3.290224559509918E-83,0.0,9.835364053903514E179)
+&gt; ARG_1: (0.0,0.0,2.0754846916083725E128)
+&gt; ARG_0_ORIGINAL: (3.290224559509918E-83,-3.3292411631793057E80,2.956642726102461E290)
+&gt; ARG_1_ORIGINAL: (-1.58807857891627E250,1.0878500826606146E20,2.0754846916083725E128)
+	at munit.Assertions.fail(Assertions.scala:283)
+	at munit.Assertions.fail$(Assertions.scala:15)
+	at munit.FunSuite.fail(FunSuite.scala:11)
+	at munit.ScalaCheckSuite.propToTry$$anonfun$1(ScalaCheckSuite.scala:104)
+	at scala.util.Try$.apply(Try.scala:210)
+	at munit.ScalaCheckSuite.propToTry(ScalaCheckSuite.scala:104)
+	at munit.ScalaCheckSuite.$init$$$anonfun$2$$anonfun$1$$anonfun$1(ScalaCheckSuite.scala:46)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:475)
+	at munit.Suite$$anon$1.execute(Suite.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.dispatchOrAddCallbacks(Promise.scala:312)
+	at scala.concurrent.impl.Promise$DefaultPromise.transform(Promise.scala:128)
+	at munit.internal.FutureCompat$ExtensionFuture.transformCompat(FutureCompat.scala:16)
+	at munit.ScalaCheckSuite.$init$$$anonfun$3$$anonfun$2(ScalaCheckSuite.scala:48)
+	at munit.GenericTest.withBodyMap$$anonfun$1(GenericTest.scala:33)
+	at munit.MUnitRunner.$anonfun$8(MUnitRunner.scala:296)
+</failure>
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="cross product is almost commutative run #1" time="0.001">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="cross product is almost commutative run #2" time="0.0">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="cross product is almost commutative run #3" time="0.001">
+                      
+                    </testcase><testcase classname="vectors.VectorOpsSuite" name="cross product is always almost commutative" time="200.123">
+                      <failure message="/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:164
+163:    }
+[7m164:  }[0m
+165:}
+
+Failing seed: Cu4Z6KCS6VLuGk-QS5xCag14KHK1d7mOW4EtunXZEtA=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;Cu4Z6KCS6VLuGk-QS5xCag14KHK1d7mOW4EtunXZEtA=&quot;
+
+Falsified after 35 passed tests.
+&gt; ARG_0: (-1.2898723967997902E185,-7.78384360731562E-59,-6.746214418004385E135)
+&gt; ARG_1: (-5.257194295634556E172,0.0,-1.499532828799122E123)
+&gt; ARG_0_ORIGINAL: (-5.2043325615373855E303,-7.78384360731562E-59,-4.7678116571266655E208)
+&gt; ARG_1_ORIGINAL: (-5.257194295634556E172,8.110106989618252E299,-1.499532828799122E123)" type="munit.FailException">munit.FailException: /home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:164
+163:    }
+[7m164:  }[0m
+165:}
+
+Failing seed: Cu4Z6KCS6VLuGk-QS5xCag14KHK1d7mOW4EtunXZEtA=
+You can reproduce this failure by adding the following override to your suite:
+
+  override val scalaCheckInitialSeed = &quot;Cu4Z6KCS6VLuGk-QS5xCag14KHK1d7mOW4EtunXZEtA=&quot;
+
+Falsified after 35 passed tests.
+&gt; ARG_0: (-1.2898723967997902E185,-7.78384360731562E-59,-6.746214418004385E135)
+&gt; ARG_1: (-5.257194295634556E172,0.0,-1.499532828799122E123)
+&gt; ARG_0_ORIGINAL: (-5.2043325615373855E303,-7.78384360731562E-59,-4.7678116571266655E208)
+&gt; ARG_1_ORIGINAL: (-5.257194295634556E172,8.110106989618252E299,-1.499532828799122E123)
+	at munit.Assertions.fail(Assertions.scala:283)
+	at munit.Assertions.fail$(Assertions.scala:15)
+	at munit.FunSuite.fail(FunSuite.scala:11)
+	at munit.ScalaCheckSuite.propToTry$$anonfun$1(ScalaCheckSuite.scala:104)
+	at scala.util.Try$.apply(Try.scala:210)
+	at munit.ScalaCheckSuite.propToTry(ScalaCheckSuite.scala:104)
+	at munit.ScalaCheckSuite.$init$$$anonfun$2$$anonfun$1$$anonfun$1(ScalaCheckSuite.scala:46)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:475)
+	at munit.Suite$$anon$1.execute(Suite.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.dispatchOrAddCallbacks(Promise.scala:312)
+	at scala.concurrent.impl.Promise$DefaultPromise.transform(Promise.scala:128)
+	at munit.internal.FutureCompat$ExtensionFuture.transformCompat(FutureCompat.scala:16)
+	at munit.ScalaCheckSuite.$init$$$anonfun$3$$anonfun$2(ScalaCheckSuite.scala:48)
+	at munit.GenericTest.withBodyMap$$anonfun$1(GenericTest.scala:33)
+	at munit.MUnitRunner.$anonfun$8(MUnitRunner.scala:296)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>
