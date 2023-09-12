@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:3:8: not found: object munit[0m
+[0m[[0m[31merror[0m] [0m[0mimport munit.ScalaCheckSuite[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:4:12: object scalacheck is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalacheck.Prop._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:6:30: not found: type ScalaCheckSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass VectorOpsSuite extends ScalaCheckSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:8:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can scale a vector") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:9:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 2, 4)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:11:20: not found: value scale[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = scale(k,x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:12:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (8, 16, 32)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:13:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:18:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can add two vectors") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:19:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 2, 4)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:20:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (2, 4, 8)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:21:20: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = add(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:22:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (3, 6, 12)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:23:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:28:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can get the dot product of two vectors") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:29:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 2, 3)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:30:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (3, 2, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:31:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = dotpr(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:33:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:38:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can get the cross product of two vectors") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:39:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (56, -600, 19)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:40:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (69, 103, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:41:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = cross(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:42:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (-3157, 1199, 47168)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:43:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:46:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can get cross product run #1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:47:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 0, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:48:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (0, 1, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:49:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = cross(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:50:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (0, 0, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:51:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:53:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can get cross product run #2") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:54:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (0, 1, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:55:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (0, 0, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:56:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = cross(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:57:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (1, 0, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:58:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:60:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("can get cross product run #3") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:61:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (0, 0, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:62:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (1, 0, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:63:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = cross(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:64:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected:Vec3 = (0, 1, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:65:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:70:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("scale can be stacked") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:71:5: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (k1: Double, k2: Double, x: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:71:42: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (k1: Double, k2: Double, x: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:72:13: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m      val a:Vec3 = scale(k1,scale(k2,x))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:72:20: not found: value scale[0m
+[0m[[0m[31merror[0m] [0m[0m      val a:Vec3 = scale(k1,scale(k2,x))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:72:29: not found: value scale[0m
+[0m[[0m[31merror[0m] [0m[0m      val a:Vec3 = scale(k1,scale(k2,x))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:73:13: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m      val b:Vec3 = scale((k1 * k2), x)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:73:20: not found: value scale[0m
+[0m[[0m[31merror[0m] [0m[0m      val b:Vec3 = scale((k1 * k2), x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:80:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("addition is commutative") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:81:5: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:81:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:81:27: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:82:7: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x, y) == add(y, x)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:82:20: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x, y) == add(y, x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:88:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("addition is associative") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:89:5: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3, z: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:89:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3, z: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:89:27: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3, z: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:89:36: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3, z: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:90:7: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x,add(y,z)) == add(z,add(x,y))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:90:13: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x,add(y,z)) == add(z,add(x,y))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:90:26: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x,add(y,z)) == add(z,add(x,y))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:90:32: not found: value add[0m
+[0m[[0m[31merror[0m] [0m[0m      add(x,add(y,z)) == add(z,add(x,y))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:95:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("dot product of a vector and itself is never negative") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:96:5: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:96:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:97:7: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m      dotpr(x,x) >= 0 [0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:103:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("dot product is commutative run #1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:104:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 2, 3)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:105:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (3, 2, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:106:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = dotpr(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:107:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected = dotpr(y,x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:108:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:110:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("dot product is commutative run #2") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:111:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (56, -600, 19)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:112:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (69, 103, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:113:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = dotpr(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:114:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected = dotpr(y,x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:115:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:117:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("dot product is commutative run #3") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:118:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (-56, -60, -2219)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:119:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (4, -3, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:120:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = dotpr(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:121:20: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected = dotpr(y,x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:122:5: not found: value assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(obtained, expected)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:125:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("dot product is always commutative") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:126:5: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:126:18: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:126:27: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    forAll { (x: Vec3, y: Vec3) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:127:8: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m      (dotpr(x, y) - dotpr(y, x)).abs <= 0.000001[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:127:22: not found: value dotpr[0m
+[0m[[0m[31merror[0m] [0m[0m      (dotpr(x, y) - dotpr(y, x)).abs <= 0.000001[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:134:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("cross product is almost commutative run #1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:135:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val x:Vec3 = (1, 2, 3)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:136:11: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val y:Vec3 = (3, 2, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:137:14: not found: type Vec3[0m
+[0m[[0m[31merror[0m] [0m[0m    val negY:Vec3 = (-3, -2, -1) //Just negative y[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:138:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val obtained = cross(x,y)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nick/functional/vector-operations/src/test/scala/vectors/VectorOpsSuite.scala:139:20: not found: value cross[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected = cross(negY,x)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m
